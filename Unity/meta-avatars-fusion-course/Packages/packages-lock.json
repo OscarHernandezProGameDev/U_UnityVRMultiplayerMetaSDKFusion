@@ -36,6 +36,27 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.meta.xr.sdk.avatars": {
+      "version": "33.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.meta.xr.sdk.core": "69.0.1",
+        "com.meta.xr.sdk.platform": "69.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.9",
+        "com.meta.xr.sdk.avatars.sample.assets": "33.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.avatars.sample.assets": {
+      "version": "33.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.meta.xr.sdk.core": {
       "version": "72.0.0",
       "depth": 1,
@@ -147,15 +168,6 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.ide.rider": {
-      "version": "3.0.31",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ext.nunit": "1.0.6"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
@@ -294,7 +306,7 @@
       }
     },
     "com.unity.timeline": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -313,16 +325,6 @@
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
-    },
-    "com.unity.visualscripting": {
-      "version": "1.9.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.12",
