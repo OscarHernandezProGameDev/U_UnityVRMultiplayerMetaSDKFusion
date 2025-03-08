@@ -82,7 +82,7 @@ PlayerSettings:
   androidApplicationEntry: 2
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -824,8 +824,23 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: ISDK_OPENXR_HAND
-    Standalone: ISDK_OPENXR_HAND
+    Android: ISDK_OPENXR_HAND;FUSION_LOGLEVEL_INFO;FUSION_WEAVER;FUSION2;PHOTON_VOICE_DEFINED
+    EmbeddedLinux: PHOTON_VOICE_DEFINED
+    GameCoreScarlett: PHOTON_VOICE_DEFINED
+    GameCoreXboxOne: PHOTON_VOICE_DEFINED
+    LinuxHeadlessSimulation: PHOTON_VOICE_DEFINED
+    Nintendo Switch: PHOTON_VOICE_DEFINED
+    PS4: PHOTON_VOICE_DEFINED
+    PS5: PHOTON_VOICE_DEFINED
+    QNX: PHOTON_VOICE_DEFINED
+    ReservedCFE: PHOTON_VOICE_DEFINED
+    Standalone: ISDK_OPENXR_HAND;PHOTON_VOICE_DEFINED
+    VisionOS: PHOTON_VOICE_DEFINED
+    WebGL: PHOTON_VOICE_DEFINED
+    Windows Store Apps: PHOTON_VOICE_DEFINED
+    XboxOne: PHOTON_VOICE_DEFINED
+    iPhone: PHOTON_VOICE_DEFINED
+    tvOS: PHOTON_VOICE_DEFINED
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -836,7 +851,7 @@ PlayerSettings:
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
